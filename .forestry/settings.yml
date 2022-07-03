@@ -19,6 +19,13 @@ sections:
 - type: document
   path: sidebars.json
   label: Sidebar
+- type: directory
+  path: pages
+  label: Temp
+  create: all
+  match: "**/*"
+  templates:
+  - page
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
